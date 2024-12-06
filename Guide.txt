@@ -1,5 +1,0 @@
-1)install streamlit
-2)To Run streamlit open cmd in the respective directory and type:-
-    "streamlit run filename.py"
-    This gives local host url and network url..
-    

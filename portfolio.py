@@ -1,8 +1,8 @@
 import streamlit as st 
 import google.generativeai as genai # for our ai bot..
+from api1 import api_key
 # partition of the site with 2 columns so that the photo gets to the right
 # to hide the api key
-api_key=st.secrets["AIzaSyDd4kBxpk_wUcRsym7PugAyx9RR01VAbrQ"]
 genai.configure(api_key=api_key)
 model=genai.GenerativeModel("gemini-1.5-flash")
 col1,col2=st.columns(2)
