@@ -1,5 +1,5 @@
 import streamlit as st 
-import google.generativeai as genai # for our ai bot..
+import google.generativeai as genai # for our ai bot..    
 # from api1 import api_key
 # partition of the site with 2 columns so that the photo gets to the right
 # to hide the api key
